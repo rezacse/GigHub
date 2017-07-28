@@ -1,0 +1,44 @@
+﻿@model GigHub.Core.ViewModels.GigDetailsViewModel
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 >
+    @Model.Gig.Artist.Name
+    @if (User.Identity.IsAuthenticated)
+    {         
+        <button class="btn  @(Model.IsFollowing ? "btn-info":"btn-default") jsToogleFollow" data-user-id="@Model.Gig.ArtistId">
+            @(Model.IsFollowing ? "Following" : "Follow")
+        </button>
+    }
+</h2>       
+
+<p>
+    Performing at @Model.Gig.Venue on @Model.Gig.DateTime.ToString("d MMM yyyy") at @Model.Gig.DateTime.ToString("HH:mm");
+    Genre: @Model.Gig.Genre.Name
+</p>                            
+
+@if (User.Identity.IsAuthenticated && Model.IsAttending)
+{
+    <div id="gigs">
+        <p>You are going to this event</p>
+        <button data-gig-id="@Model.Gig.Id"
+                class="@(Model.IsAttending ? "btn-info" : "btn-default")
+                            btn btn-sm jsToogleAttendace">
+            @(Model.IsAttending ? "Going" : "Going ?")
+        </button>
+    </div>
+}
+
+          
+
+@section scripts{
+<script>
+$(document).ready(function () {
+
+    GigsController.init("#gigs");
+    GigDetailsController.init();
+});
+</script>
+}
