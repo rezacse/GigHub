@@ -50,7 +50,7 @@ namespace GigHub.Controllers.Api
             _unitOfWork.AttendanceRepository.Remove(attendance);
             _unitOfWork.Complete();
 
-            return Ok();
+            return Ok(id);
         }
     }
 }

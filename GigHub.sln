@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub.Test", "GigHub.Test\GigHub.Test.csproj", "{70993A5E-2224-479E-8899-6108BE6F6748}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,17 +22,12 @@ Global
 		{15901365-FEEF-4574-8548-430FAAF36A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15901365-FEEF-4574-8548-430FAAF36A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15901365-FEEF-4574-8548-430FAAF36A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70993A5E-2224-479E-8899-6108BE6F6748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70993A5E-2224-479E-8899-6108BE6F6748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70993A5E-2224-479E-8899-6108BE6F6748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70993A5E-2224-479E-8899-6108BE6F6748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://rezacse0807002.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = GigHub\\GigHub.csproj
-		SccProjectName1 = GigHub
-		SccLocalPath1 = GigHub
 	EndGlobalSection
 EndGlobal
