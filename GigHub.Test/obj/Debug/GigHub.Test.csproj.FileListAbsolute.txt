@@ -74,3 +74,5 @@ E:\devResources\_git\GigHub\GigHub.Test\obj\Debug\GigHub.Test.csprojResolveAssem
 E:\devResources\_git\GigHub\GigHub.Test\obj\Debug\GigHub.Test.dll
 E:\devResources\_git\GigHub\GigHub.Test\obj\Debug\GigHub.Test.pdb
 E:\devResources\_git\GigHub\GigHub.Test\bin\Debug\GigHub.Test.dll.config
+E:\devResources\_git\GigHub\GigHub.Test\bin\Debug\EntityFramework.SqlServer.dll
+E:\devResources\_git\GigHub\GigHub.Test\bin\Debug\EntityFramework.SqlServer.xml

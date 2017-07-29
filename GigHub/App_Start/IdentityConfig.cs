@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
+using GigHub.Core;
 using GigHub.Core.Models;
 using GigHub.Persistence;
 using Microsoft.AspNet.Identity;

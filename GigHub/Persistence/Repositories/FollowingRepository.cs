@@ -2,6 +2,7 @@
 using GigHub.Core.Repositories;
 using System.Collections.Generic;
 using System.Linq;
+using GigHub.Core;
 
 namespace GigHub.Persistence.Repositories
 {

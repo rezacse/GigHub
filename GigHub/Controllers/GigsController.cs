@@ -19,7 +19,7 @@ namespace GigHub.Controllers
         [Authorize]
         public ActionResult Mine()
         {
-            var gigs = _unitOfWork.GigRepository.GetUpcomingGigByArtist(User.Identity.GetUserId());
+            var gigs = _unitOfWork.GigRepository.GetUpcomingGigsByArtist(User.Identity.GetUserId());
 
             return View(gigs);
         }

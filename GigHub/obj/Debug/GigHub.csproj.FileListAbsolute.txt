@@ -177,3 +177,4 @@ E:\devResources\_git\GigHub\GigHub\obj\Debug\GigHub.Persistence.Migrations.Initi
 E:\devResources\_git\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.Cache
 E:\devResources\_git\GigHub\GigHub\obj\Debug\GigHub.dll
 E:\devResources\_git\GigHub\GigHub\obj\Debug\GigHub.pdb
+E:\devResources\_git\GigHub\GigHub\obj\Debug\GigHub.csprojResolveAssemblyReference.cache

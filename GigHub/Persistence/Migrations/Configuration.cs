@@ -1,5 +1,6 @@
 using GigHub.Persistence;
 using System.Data.Entity.Migrations;
+using GigHub.Core;
 
 namespace GigHub.Migrations
 {
